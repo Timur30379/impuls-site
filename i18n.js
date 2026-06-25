@@ -198,6 +198,11 @@
       var m = metas[j], mv = t[m.getAttribute("data-i18n-attr")];
       if (mv != null) m.setAttribute("content", mv);
     }
+    var legalLinks = document.querySelectorAll("header.site nav a, footer a");
+    for (var p = 0; p < legalLinks.length; p++) {
+      var lm = (legalLinks[p].getAttribute("href") || "").match(/^(datenschutz|impressum|nutzungsbedingungen)(_en)?\.html$/);
+      if (lm) legalLinks[p].setAttribute("href", lm[1] + (lang === "de" ? "" : "_en") + ".html");
+    }
     var sel = document.getElementById("lang-switch");
     if (sel) sel.value = lang;
     try { localStorage.setItem("impuls_lang", lang); } catch (e) {}
