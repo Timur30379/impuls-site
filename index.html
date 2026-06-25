@@ -3,23 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Impuls — Deine Stimme. Dein Werteprofil.</title>
-  <meta name="description" content="Impuls ist eine politische Beteiligungs-App: Fragen beantworten, anonymes Werteprofil erhalten, mit dem eigenen Land vergleichen. Keine Wahlempfehlung. Keine Tracker.">
+  <title data-i18n="idx_title">Impuls — Deine Stimme. Dein Werteprofil.</title>
+  <meta name="description" id="meta-desc" data-i18n-attr="idx_desc" content="Impuls ist eine politische Beteiligungs-App: Fragen beantworten, anonymes Werteprofil erhalten, mit dem eigenen Land vergleichen. Keine Wahlempfehlung. Keine Tracker.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site">
     <a class="brand" href="index.html">Impuls</a>
     <nav>
-      <a href="datenschutz.html">Datenschutz</a>
-      <a href="impressum.html">Impressum</a>
-      <a href="nutzungsbedingungen.html">Nutzungsbedingungen</a>
-      <a href="support.html">Support</a>
+      <a href="datenschutz.html" data-i18n="nav_privacy">Datenschutz</a>
+      <a href="impressum.html" data-i18n="nav_imprint">Impressum</a>
+      <a href="nutzungsbedingungen.html" data-i18n="nav_terms">Nutzungsbedingungen</a>
+      <a href="support.html" data-i18n="nav_support">Support</a>
     </nav>
+    <select id="lang-switch" class="lang-switch" aria-label="Sprache / Language">
+      <option value="de">Deutsch</option>
+      <option value="en">English</option>
+      <option value="it">Italiano</option>
+      <option value="fr">Français</option>
+      <option value="es">Español</option>
+      <option value="nl">Nederlands</option>
+      <option value="pl">Polski</option>
+    </select>
   </header>
   <main>
-    <h1>Deine Stimme. Dein Werteprofil.</h1>
-    <p class="lead">
+    <h1 data-i18n="idx_h1">Deine Stimme. Dein Werteprofil.</h1>
+    <p class="lead" data-i18n="idx_lead">
       Impuls macht sichtbar, wo du politisch stehst — und wo dein Land steht.
       Beantworte Sach- und Wertefragen, erhalte ein anonymes Profil auf zehn
       Werteachsen und vergleiche dich mit der Community in 9 europäischen
@@ -27,23 +36,24 @@
     </p>
 
     <div class="card">
-      <h2>Was Impuls anders macht</h2>
+      <h2 data-i18n="idx_card_title">Was Impuls anders macht</h2>
       <ul>
-        <li><strong>Keine Wahlempfehlung.</strong> Impuls zeigt Nähe und Mehrheiten, bewertet aber nicht, was „richtig" ist.</li>
-        <li><strong>Anonym by design.</strong> Kein Konto nötig, keine Tracker, keine Werbung. Politische Antworten werden nur pseudonym verarbeitet.</li>
-        <li><strong>Europäisch.</strong> Eigene Inhalte für DE, AT, CH, IT, FR, ES, NL, PL und GB — in der jeweiligen Landessprache.</li>
-        <li><strong>Server in der EU.</strong> Alle Daten liegen in Frankfurt am Main.</li>
+        <li data-i18n="idx_p1"><strong>Keine Wahlempfehlung.</strong> Impuls zeigt Nähe und Mehrheiten, bewertet aber nicht, was „richtig“ ist.</li>
+        <li data-i18n="idx_p2"><strong>Anonym by design.</strong> Kein Konto nötig, keine Tracker, keine Werbung. Politische Antworten werden nur pseudonym verarbeitet.</li>
+        <li data-i18n="idx_p3"><strong>Europäisch.</strong> Eigene Inhalte für DE, AT, CH, IT, FR, ES, NL, PL und GB — in der jeweiligen Landessprache.</li>
+        <li data-i18n="idx_p4"><strong>Server in der EU.</strong> Alle Daten liegen in Frankfurt am Main.</li>
       </ul>
     </div>
 
     <div class="card notice">
-      <p><strong>Beta:</strong> Impuls ist derzeit in der TestFlight-Phase.
+      <p data-i18n="idx_beta"><strong>Beta:</strong> Impuls ist derzeit in der TestFlight-Phase.
       Der App-Store-Link erscheint hier zum Launch.</p>
     </div>
   </main>
   <footer>
-    <p>© 2026 Impuls — ein unabhängiges, privates Projekt ohne Verbindung zu Parteien, Regierungen oder Behörden.
+    <p data-i18n="idx_footer">© 2026 Impuls — ein unabhängiges, privates Projekt ohne Verbindung zu Parteien, Regierungen oder Behörden.
     · <a href="datenschutz.html">Datenschutz</a> · <a href="impressum.html">Impressum</a> · <a href="support.html">Support</a></p>
   </footer>
+  <script src="i18n.js" defer></script>
 </body>
 </html>
