@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Impuls</title>
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <a class="brand" href="index.html">Impuls</a>
+    <nav>
+      <a href="datenschutz_en.html">Privacy</a>
+      <a href="impressum.html">Legal notice</a>
+      <a href="nutzungsbedingungen.html">Terms of use</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Privacy Policy — Impuls</h1>
+    <p class="meta">Last updated: 19 May 2026 · Language: <a href="datenschutz.html">Deutsch ↗</a> · English</p>
+
+    <div class="card notice">
+      <p><strong>Note:</strong> This English text is a convenience translation. The legally
+      authoritative version is the <a href="datenschutz.html">German privacy policy</a>;
+      in case of any discrepancy, the German version applies.</p>
+    </div>
+
+    <p>This privacy policy describes how the <strong>Impuls</strong> app handles your data.
+    It is written in plain language and deliberately detailed where it matters most: the
+    distinction between local on-device data and data in the backend.</p>
+
+    <h2>1. Controller</h2>
+    <p><strong>Timur Felix Cön</strong><br>
+    Contact: <a href="mailto:privacy@impulsapp.eu">privacy@impulsapp.eu</a></p>
+    <p>The fastest way to reach me is by email. You can find the full postal address in the
+    <a href="impressum.html">legal notice (Impressum)</a>.</p>
+
+    <h2>2. Purpose of the app</h2>
+    <p>Impuls is a political opinion and analysis app. It makes political questions, societal
+    value axes and majorities visible: answer current topics, societal questions and
+    parliamentary proposals, build a personal value-axis profile from your answers, compare it
+    with the community average, and rate the government and political figures with
+    school-style grades.</p>
+    <p>The app gives <strong>no voting recommendation</strong>. Party comparisons are
+    explicitly described as profile proximity, not a recommendation. Ratings of individuals are
+    user opinions, not statements of fact.</p>
+
+    <h2>3. Which data is processed — and where</h2>
+    <p>We clearly separate two layers.</p>
+
+    <h3>3.1 Stays only on your device</h3>
+    <p>The following is stored <strong>exclusively locally</strong> on your device and is
+    <strong>not</strong> transmitted to our backend:</p>
+    <ul>
+      <li><strong>Basic data:</strong> age, postal code and region, if you enter them voluntarily in the profile card. These fields never leave the device.</li>
+      <li><strong>Onboarding status:</strong> the marker of whether you have seen the first-start flow.</li>
+      <li><strong>Optional UI states:</strong> e.g. which sections you have expanded in detail views.</li>
+    </ul>
+    <p>You can uninstall the app at any time — this removes that local data.</p>
+
+    <h3>3.2 Transmitted anonymously to our backend</h3>
+    <p>When you answer a voting question or give a rating, the submission is sent to our backend
+    at <strong>Supabase (EU region)</strong>. We transmit:</p>
+    <ul>
+      <li>the <strong>ID of the question/category/person</strong> your answer relates to,</li>
+      <li>the <strong>answer/rating value</strong>,</li>
+      <li>a <strong>device-bound, pseudonymous UUID</strong> (randomly generated on first launch) so that multiple submissions are prevented and votes can be updated per device,</li>
+      <li>a timestamp of the submission.</li>
+    </ul>
+    <p>We do <strong>not</strong> transmit: your name, your email address, your Apple/Google ID,
+    your age, your postal code, your region, your location, your IP address beyond what a normal
+    HTTPS request entails, or your device type in a personally identifiable form.</p>
+
+    <h3>3.3 What the app does not do</h3>
+    <ul>
+      <li><strong>No</strong> sale of personal data.</li>
+      <li><strong>No</strong> advertising tracking, no ads, no tracking SDKs (Facebook/Google Analytics or similar).</li>
+      <li><strong>No</strong> real identity verification. The device-bound UUID cannot be resolved to your person.</li>
+      <li><strong>No</strong> access to your location, address book, photos, microphone or similar.</li>
+      <li><strong>No</strong> push notifications without your consent.</li>
+    </ul>
+
+    <h2>4. Political opinions (Art. 9 GDPR)</h2>
+    <p>Answers on political topics are special categories of personal data. We process them
+    exclusively pseudonymously and on the basis of your explicit consent (Art. 9(2)(a) GDPR),
+    which you give in the app before first using the voting functions and can withdraw at any
+    time (in the app under “Legal → Your data”).</p>
+
+    <h2>5. Backend and hosting</h2>
+    <p>Anonymized voting data is stored in a Supabase instance in the
+    <strong>European Union (Frankfurt am Main)</strong>. Supabase is a purely technical service
+    provider (processor); no processing for advertising or profiling purposes takes place. No
+    transfer to third countries outside the EU takes place.</p>
+
+    <h2>5a. Optional account and profile backup</h2>
+    <p>You can use Impuls entirely without an account. Optionally, you can create an account
+    (Apple login or email code) to back up your value profile and restore it on another device.
+    For this we process your <strong>email address</strong> (or the relay address provided by
+    Apple) for sign-in and — <strong>only in the explicit “back up profile” flow</strong> — a
+    copy of your answers and value profile linked to your account. This backup never happens
+    automatically when voting. Your anonymous community votes remain separate and are not linked
+    to your account. Basic data (age, postal code, region) is never part of the backup. You can
+    delete your account including the backup at any time in the app (“Legal → Delete account”).
+    Legal bases: Art. 6(1)(b) GDPR and Art. 9(2)(a) GDPR (explicit consent via the backup flow).</p>
+
+    <h2>6. Source links and in-app browser</h2>
+    <p>Sources stored in detail views (Bundestag, bpb, Correctiv, ZDF, the Federal
+    Constitutional Court and others) open in the operating system’s in-app browser. The source
+    is loaded by your operating system, with the technical requests usual there
+    (cookies/browser headers).</p>
+
+    <h2>7. Analytics &amp; error diagnostics</h2>
+    <p>A production analytics engine is currently not active. If activated later, only
+    pseudonymous usage events without answer contents will be processed. Crash reporting may be
+    used for stability — without answer contents.</p>
+
+    <h2>8. Retention</h2>
+    <ul>
+      <li><strong>Local data</strong> stays on your device until you change it, delete it in the app, or uninstall the app.</li>
+      <li><strong>Anonymous votes</strong> in the backend are retained for as long as the app evaluates the respective area.</li>
+      <li><strong>Deletion of your device-bound voting profile</strong> is possible on request by email (section 1). As we store no identity, we need your device UUID from the app for this.</li>
+    </ul>
+
+    <h2>9. Your rights (GDPR)</h2>
+    <p>Even without an account, you have rights to access, rectification, erasure, restriction,
+    data portability and objection (Art. 15–21 GDPR). You can delete local data yourself in the
+    app at any time (“Legal → Delete all my data”). For anything else: email
+    <a href="mailto:privacy@impulsapp.eu">privacy@impulsapp.eu</a>. You also have the right to
+    lodge a complaint with a data protection supervisory authority.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>We update this page when the app’s feature set or the data processed changes. The latest
+    version date is shown above.</p>
+
+    <hr>
+    <p class="meta">This policy describes the state of app version 1.0.0 (Beta).</p>
+  </main>
+  <footer>
+    <p>© 2026 Impuls · <a href="index.html">Home</a> · <a href="impressum.html">Legal notice</a> · <a href="support.html">Support</a></p>
+  </footer>
+</body>
+</html>
