@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung — Impuls</title>
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <a class="brand" href="index.html">Impuls</a>
+    <nav>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="nutzungsbedingungen.html">Nutzungsbedingungen</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Datenschutzerklärung — Impuls</h1>
+    <p class="meta">Stand: 19. Mai 2026</p>
+
+    <p>Diese Datenschutzerklärung beschreibt, wie die App <strong>Impuls</strong>
+    mit deinen Daten umgeht. Sie ist in einfacher Sprache gehalten und bewusst
+    genau dort ausführlich, wo es um die Unterscheidung zwischen lokalen
+    Geräte-Daten und Daten im Backend geht.</p>
+
+    <h2>1. Verantwortlicher</h2>
+    <p><strong>Timur Felix Cön</strong><br>
+    Kontakt: <a href="mailto:datenschutz@impulsapp.eu">datenschutz@impulsapp.eu</a></p>
+    <p>Du erreichst mich am schnellsten per E-Mail. Die vollständige
+    Postanschrift findest du im <a href="impressum.html">Impressum</a>.</p>
+
+    <h2>2. Zweck der App</h2>
+    <p>Impuls ist eine politische Meinungs- und Auswertungs-App. Sie macht
+    politische Fragen, gesellschaftliche Werteachsen und Mehrheiten sichtbar:
+    tagesaktuelle Themen, Gesellschaftsfragen und Parlamentsvorlagen
+    beantworten, aus den Antworten ein persönliches Werteachsen-Profil bilden,
+    es mit dem Durchschnitt der Community vergleichen, Regierung und politische
+    Personen mit Schulnoten bewerten.</p>
+    <p>Die App gibt <strong>keine Wahlempfehlung</strong>. Parteivergleiche
+    werden ausdrücklich als Profilnähe bezeichnet, nicht als Empfehlung.
+    Bewertungen einzelner Personen sind Nutzermeinungen, keine
+    Tatsachenbehauptungen.</p>
+
+    <h2>3. Welche Daten verarbeitet werden — und wo</h2>
+    <p>Wir trennen klar zwischen zwei Schichten.</p>
+
+    <h3>3.1 Bleibt nur auf deinem Gerät</h3>
+    <p>Folgendes wird <strong>ausschließlich lokal</strong> auf deinem Gerät
+    gespeichert und <strong>nicht</strong> an unser Backend übertragen:</p>
+    <ul>
+      <li><strong>Basisdaten:</strong> Alter, Postleitzahl und Region, sofern du sie freiwillig in der Profil-Karte einträgst. Diese Felder verlassen das Gerät nicht.</li>
+      <li><strong>Onboarding-Status:</strong> der Marker, ob du den Erst-Start-Flow gesehen hast.</li>
+      <li><strong>Optionale UI-Zustände:</strong> z. B. welche Sektionen du in Detailansichten aufgeklappt hast.</li>
+    </ul>
+    <p>Du kannst die App jederzeit deinstallieren — damit sind diese lokalen Daten weg.</p>
+
+    <h3>3.2 Wird anonym an unser Backend übertragen</h3>
+    <p>Wenn du eine Abstimmungsfrage beantwortest oder eine Note vergibst, wird
+    die Abgabe an unser Backend bei <strong>Supabase (EU-Region)</strong>
+    geschickt. Dabei übertragen wir:</p>
+    <ul>
+      <li>die <strong>ID der Frage/Kategorie/Person</strong>, auf die sich deine Antwort bezieht,</li>
+      <li>den <strong>Antwort-/Notenwert</strong>,</li>
+      <li>eine <strong>gerätegebundene, pseudonyme UUID</strong> (beim ersten Start zufällig erzeugt), damit Mehrfachabgaben vermieden und Stimmen pro Gerät aktualisierbar sind,</li>
+      <li>einen Zeitstempel der Abgabe.</li>
+    </ul>
+    <p>Wir übertragen <strong>nicht</strong>: deinen Namen, deine
+    E-Mail-Adresse, deine Apple-/Google-ID, dein Alter, deine PLZ, deine
+    Region, deinen Standort, deine IP-Adresse über das normale Maß einer
+    HTTPS-Anfrage hinaus, deinen Gerätetyp in personenbezogener Form.</p>
+
+    <h3>3.3 Was die App nicht macht</h3>
+    <ul>
+      <li><strong>Keine</strong> Verkäufe personenbezogener Daten.</li>
+      <li><strong>Kein</strong> Tracking zu Werbezwecken, keine Werbung, keine Tracking-SDKs (Facebook/Google Analytics o. ä.).</li>
+      <li><strong>Keine</strong> echte Identitätsprüfung. Die gerätegebundene UUID kann nicht zu deiner Person aufgelöst werden.</li>
+      <li><strong>Keine</strong> Abfrage deines Standorts, kein Zugriff auf Adressbuch, Fotos, Mikrofon o. ä.</li>
+      <li><strong>Keine</strong> Push-Notifications ohne deine Zustimmung.</li>
+    </ul>
+
+    <h2>4. Politische Meinungen (Art. 9 DSGVO)</h2>
+    <p>Antworten zu politischen Themen sind besondere Kategorien
+    personenbezogener Daten. Wir verarbeiten sie ausschließlich pseudonym und
+    auf Grundlage deiner ausdrücklichen Einwilligung (Art. 9 Abs. 2 lit. a
+    DSGVO), die du in der App vor der ersten Nutzung der
+    Abstimmungsfunktionen erteilst und jederzeit widerrufen kannst
+    (in der App unter „Rechtliches → Deine Daten").</p>
+
+    <h2>5. Backend und Hosting</h2>
+    <p>Anonymisierte Abstimmungs-Daten werden in einer Supabase-Instanz in der
+    <strong>Europäischen Union (Frankfurt am Main)</strong> gespeichert.
+    Supabase ist reiner technischer Dienstleister (Auftragsverarbeiter); es
+    findet keine Verarbeitung zu Werbe- oder Profilbildungszwecken statt.
+    Eine Übermittlung in Drittländer außerhalb der EU findet nicht statt.</p>
+
+    <h2>5a. Optionales Konto und Profil-Backup</h2>
+    <p>Du kannst Impuls vollständig ohne Konto nutzen. Optional kannst du
+    ein Konto erstellen (Apple-Login oder E-Mail-Code), um dein Werteprofil
+    zu sichern und auf einem anderen Gerät wiederherzustellen. Dabei
+    verarbeiten wir deine <strong>E-Mail-Adresse</strong> (bzw. die von
+    Apple bereitgestellte Weiterleitungs-Adresse) zur Anmeldung sowie —
+    <strong>nur im ausdrücklichen „Profil sichern"-Flow</strong> — eine mit
+    deinem Konto verknüpfte Kopie deiner Antworten und deines
+    Werteprofils. Dieses Backup passiert nie automatisch beim Abstimmen.
+    Deine anonymen Community-Stimmen bleiben davon getrennt und werden
+    nicht mit deinem Konto verknüpft. Basisdaten (Alter, PLZ, Region) sind
+    nie Teil des Backups. Du kannst dein Konto samt Backup jederzeit in der
+    App löschen („Rechtliches" → Konto löschen). Rechtsgrundlagen:
+    Art. 6 Abs. 1 lit. b DSGVO sowie Art. 9 Abs. 2 lit. a DSGVO
+    (ausdrückliche Einwilligung über den Sicherungs-Flow).</p>
+
+    <h2>6. Quellen-Links und In-App-Browser</h2>
+    <p>In Detailansichten hinterlegte Quellen (Bundestag, bpb, Correctiv, ZDF,
+    Bundesverfassungsgericht u. a.) öffnen sich im In-App-Browser des
+    Betriebssystems. Die Quelle wird durch dein Betriebssystem aufgerufen,
+    mit den dort üblichen technischen Anfragen (Cookies/Browser-Header).</p>
+
+    <h2>7. Analyse &amp; Fehlerdiagnose</h2>
+    <p>Eine produktive Analyse-Engine ist derzeit nicht aktiv. Bei späterer
+    Aktivierung werden ausschließlich pseudonyme Nutzungsereignisse ohne
+    Antwortinhalte verarbeitet. Zur Stabilität kann ein Crash-Reporting
+    eingesetzt werden — ohne Antwortinhalte.</p>
+
+    <h2>8. Speicherdauer</h2>
+    <ul>
+      <li><strong>Lokale Daten</strong> bleiben auf deinem Gerät, bis du sie änderst, in der App löschst oder die App deinstallierst.</li>
+      <li><strong>Anonyme Vote-Stimmen</strong> im Backend werden so lange aufbewahrt, wie die App den jeweiligen Bereich auswertet.</li>
+      <li>Eine <strong>Löschung deines gerätegebundenen Stimmen-Profils</strong> ist auf Anfrage per E-Mail möglich (Abschnitt 1). Da wir keine Identität speichern, brauchen wir dafür deine Geräte-UUID aus der App.</li>
+    </ul>
+
+    <h2>9. Deine Rechte (DSGVO)</h2>
+    <p>Auch ohne Konto hast du Auskunfts-, Berichtigungs-, Lösch-,
+    Einschränkungs-, Datenübertragbarkeits- und Widerspruchsrechte
+    (Art. 15–21 DSGVO). Lokale Daten kannst du jederzeit selbst in der App
+    löschen („Rechtliches → Alle meine Daten löschen"). Für alles Weitere:
+    E-Mail an <a href="mailto:datenschutz@impulsapp.eu">datenschutz@impulsapp.eu</a>.
+    Du hast außerdem das Recht, dich bei einer
+    Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+
+    <h2>10. Änderungen dieser Erklärung</h2>
+    <p>Wir aktualisieren diese Seite, wenn sich der App-Funktionsumfang oder
+    die verarbeiteten Daten ändern. Den letzten Stand findest du oben.</p>
+
+    <hr>
+    <p class="meta">Diese Erklärung beschreibt den Stand der App-Version 1.0.0 (Beta).</p>
+  </main>
+  <footer>
+    <p>© 2026 Impuls · <a href="index.html">Start</a> · <a href="impressum.html">Impressum</a> · <a href="support.html">Support</a></p>
+  </footer>
+</body>
+</html>
