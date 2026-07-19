@@ -5,11 +5,11 @@
 
   var I18N = {
     de: {
-      nav_privacy: "Datenschutz", nav_imprint: "Impressum", nav_terms: "Nutzungsbedingungen", nav_support: "Support",
+      nav_method: "Methodik", nav_privacy: "Datenschutz", nav_imprint: "Impressum", nav_terms: "Nutzungsbedingungen", nav_support: "Support",
       idx_title: "Impuls — Deine Stimme. Dein Werteprofil.",
       idx_desc: "Impuls ist eine politische Beteiligungs-App: Fragen beantworten, anonymes Werteprofil erhalten, mit dem eigenen Land vergleichen. Keine Wahlempfehlung. Keine Tracker.",
       idx_h1: "Deine Stimme. Dein Werteprofil.",
-      idx_lead: "Impuls macht sichtbar, wo du politisch stehst — und wo dein Land steht. Beantworte Sach- und Wertefragen, erhalte ein anonymes Profil auf zehn Werteachsen und vergleiche dich mit der Community in 9 europäischen Ländern.",
+      idx_lead: "Impuls macht sichtbar, wo du politisch stehst — und wo dein Land steht. Beantworte Sach- und Wertefragen, erhalte ein anonymes Profil auf 11 Werteachsen und vergleiche dich mit der Community in 9 europäischen Ländern.",
       idx_card_title: "Was Impuls anders macht",
       idx_p1: "<strong>Keine Wahlempfehlung.</strong> Impuls zeigt Nähe und Mehrheiten, bewertet aber nicht, was „richtig“ ist.",
       idx_p2: "<strong>Anonym by design.</strong> Kein Konto nötig, keine Tracker, keine Werbung. Politische Antworten werden nur pseudonym verarbeitet.",
@@ -29,11 +29,11 @@
       sup_footer: "© 2026 Impuls · <a href='index.html'>Start</a> · <a href='datenschutz.html'>Datenschutz</a> · <a href='impressum.html'>Impressum</a>"
     },
     en: {
-      nav_privacy: "Privacy", nav_imprint: "Legal notice", nav_terms: "Terms of use", nav_support: "Support",
+      nav_method: "Methodology", nav_privacy: "Privacy", nav_imprint: "Legal notice", nav_terms: "Terms of use", nav_support: "Support",
       idx_title: "Impuls — Your voice. Your value profile.",
       idx_desc: "Impuls is a political participation app: answer questions, get an anonymous value profile, and compare yourself with your country. No voting advice. No trackers.",
       idx_h1: "Your voice. Your value profile.",
-      idx_lead: "Impuls shows where you stand politically — and where your country stands. Answer policy and value questions, get an anonymous profile across ten value axes, and compare yourself with the community in 9 European countries.",
+      idx_lead: "Impuls shows where you stand politically — and where your country stands. Answer policy and value questions, get an anonymous profile across 11 value axes, and compare yourself with the community in 9 European countries.",
       idx_card_title: "What makes Impuls different",
       idx_p1: "<strong>No voting advice.</strong> Impuls shows proximity and majorities, but never judges what is ‘right’.",
       idx_p2: "<strong>Anonymous by design.</strong> No account needed, no trackers, no ads. Political answers are processed only pseudonymously.",
@@ -53,11 +53,11 @@
       sup_footer: "© 2026 Impuls · <a href='index.html'>Home</a> · <a href='datenschutz.html'>Privacy</a> · <a href='impressum.html'>Legal notice</a>"
     },
     it: {
-      nav_privacy: "Privacy", nav_imprint: "Note legali", nav_terms: "Condizioni d’uso", nav_support: "Supporto",
+      nav_method: "Metodologia", nav_privacy: "Privacy", nav_imprint: "Note legali", nav_terms: "Condizioni d’uso", nav_support: "Supporto",
       idx_title: "Impuls — La tua voce. Il tuo profilo valoriale.",
       idx_desc: "Impuls è un’app di partecipazione politica: rispondi alle domande, ottieni un profilo valoriale anonimo e confrontati con il tuo Paese. Nessuna indicazione di voto. Nessun tracker.",
       idx_h1: "La tua voce. Il tuo profilo valoriale.",
-      idx_lead: "Impuls mostra dove ti collochi politicamente — e dove si colloca il tuo Paese. Rispondi a domande su temi e valori, ottieni un profilo anonimo su dieci assi valoriali e confrontati con la community in 9 Paesi europei.",
+      idx_lead: "Impuls mostra dove ti collochi politicamente — e dove si colloca il tuo Paese. Rispondi a domande su temi e valori, ottieni un profilo anonimo su 11 assi valoriali e confrontati con la community in 9 Paesi europei.",
       idx_card_title: "Cosa rende Impuls diverso",
       idx_p1: "<strong>Nessuna indicazione di voto.</strong> Impuls mostra vicinanza e maggioranze, ma non giudica cosa sia «giusto».",
       idx_p2: "<strong>Anonimo per design.</strong> Nessun account, nessun tracker, nessuna pubblicità. Le risposte politiche sono trattate solo in forma pseudonima.",
@@ -77,11 +77,11 @@
       sup_footer: "© 2026 Impuls · <a href='index.html'>Home</a> · <a href='datenschutz.html'>Privacy</a> · <a href='impressum.html'>Note legali</a>"
     },
     fr: {
-      nav_privacy: "Confidentialité", nav_imprint: "Mentions légales", nav_terms: "Conditions d’utilisation", nav_support: "Support",
+      nav_method: "Méthodologie", nav_privacy: "Confidentialité", nav_imprint: "Mentions légales", nav_terms: "Conditions d’utilisation", nav_support: "Support",
       idx_title: "Impuls — Ta voix. Ton profil de valeurs.",
       idx_desc: "Impuls est une application de participation politique : réponds aux questions, obtiens un profil de valeurs anonyme et compare-toi à ton pays. Aucune consigne de vote. Aucun traceur.",
       idx_h1: "Ta voix. Ton profil de valeurs.",
-      idx_lead: "Impuls montre où tu te situes politiquement — et où se situe ton pays. Réponds à des questions de fond et de valeurs, obtiens un profil anonyme sur dix axes de valeurs et compare-toi à la communauté dans 9 pays européens.",
+      idx_lead: "Impuls montre où tu te situes politiquement — et où se situe ton pays. Réponds à des questions de fond et de valeurs, obtiens un profil anonyme sur 11 axes de valeurs et compare-toi à la communauté dans 9 pays européens.",
       idx_card_title: "Ce qui rend Impuls différent",
       idx_p1: "<strong>Aucune consigne de vote.</strong> Impuls montre les proximités et les majorités, mais ne juge jamais ce qui est « juste ».",
       idx_p2: "<strong>Anonyme par conception.</strong> Aucun compte requis, aucun traceur, aucune publicité. Les réponses politiques sont traitées uniquement de façon pseudonyme.",
@@ -101,11 +101,11 @@
       sup_footer: "© 2026 Impuls · <a href='index.html'>Accueil</a> · <a href='datenschutz.html'>Confidentialité</a> · <a href='impressum.html'>Mentions légales</a>"
     },
     es: {
-      nav_privacy: "Privacidad", nav_imprint: "Aviso legal", nav_terms: "Condiciones de uso", nav_support: "Soporte",
+      nav_method: "Metodología", nav_privacy: "Privacidad", nav_imprint: "Aviso legal", nav_terms: "Condiciones de uso", nav_support: "Soporte",
       idx_title: "Impuls — Tu voz. Tu perfil de valores.",
       idx_desc: "Impuls es una app de participación política: responde preguntas, obtén un perfil de valores anónimo y compárate con tu país. Sin recomendación de voto. Sin rastreadores.",
       idx_h1: "Tu voz. Tu perfil de valores.",
-      idx_lead: "Impuls muestra dónde te sitúas políticamente — y dónde se sitúa tu país. Responde preguntas temáticas y de valores, obtén un perfil anónimo en diez ejes de valores y compárate con la comunidad en 9 países europeos.",
+      idx_lead: "Impuls muestra dónde te sitúas políticamente — y dónde se sitúa tu país. Responde preguntas temáticas y de valores, obtén un perfil anónimo en 11 ejes de valores y compárate con la comunidad en 9 países europeos.",
       idx_card_title: "Qué hace diferente a Impuls",
       idx_p1: "<strong>Sin recomendación de voto.</strong> Impuls muestra cercanía y mayorías, pero no juzga qué es «correcto».",
       idx_p2: "<strong>Anónimo por diseño.</strong> Sin cuenta, sin rastreadores, sin publicidad. Las respuestas políticas se procesan solo de forma seudónima.",
@@ -125,11 +125,11 @@
       sup_footer: "© 2026 Impuls · <a href='index.html'>Inicio</a> · <a href='datenschutz.html'>Privacidad</a> · <a href='impressum.html'>Aviso legal</a>"
     },
     nl: {
-      nav_privacy: "Privacy", nav_imprint: "Colofon", nav_terms: "Gebruiksvoorwaarden", nav_support: "Support",
+      nav_method: "Methodologie", nav_privacy: "Privacy", nav_imprint: "Colofon", nav_terms: "Gebruiksvoorwaarden", nav_support: "Support",
       idx_title: "Impuls — Jouw stem. Jouw waardenprofiel.",
       idx_desc: "Impuls is een app voor politieke participatie: beantwoord vragen, krijg een anoniem waardenprofiel en vergelijk jezelf met je land. Geen stemadvies. Geen trackers.",
       idx_h1: "Jouw stem. Jouw waardenprofiel.",
-      idx_lead: "Impuls laat zien waar je politiek staat — en waar je land staat. Beantwoord inhoudelijke en waardenvragen, krijg een anoniem profiel op tien waardenassen en vergelijk jezelf met de community in 9 Europese landen.",
+      idx_lead: "Impuls laat zien waar je politiek staat — en waar je land staat. Beantwoord inhoudelijke en waardenvragen, krijg een anoniem profiel op 11 waardenassen en vergelijk jezelf met de community in 9 Europese landen.",
       idx_card_title: "Wat Impuls anders maakt",
       idx_p1: "<strong>Geen stemadvies.</strong> Impuls toont nabijheid en meerderheden, maar oordeelt niet over wat ‘juist’ is.",
       idx_p2: "<strong>Anoniem by design.</strong> Geen account nodig, geen trackers, geen advertenties. Politieke antwoorden worden alleen pseudoniem verwerkt.",
@@ -149,11 +149,11 @@
       sup_footer: "© 2026 Impuls · <a href='index.html'>Home</a> · <a href='datenschutz.html'>Privacy</a> · <a href='impressum.html'>Colofon</a>"
     },
     pl: {
-      nav_privacy: "Prywatność", nav_imprint: "Nota prawna", nav_terms: "Warunki korzystania", nav_support: "Pomoc",
+      nav_method: "Metodologia", nav_privacy: "Prywatność", nav_imprint: "Nota prawna", nav_terms: "Warunki korzystania", nav_support: "Pomoc",
       idx_title: "Impuls — Twój głos. Twój profil wartości.",
       idx_desc: "Impuls to aplikacja do partycypacji politycznej: odpowiadaj na pytania, otrzymaj anonimowy profil wartości i porównaj się ze swoim krajem. Bez rekomendacji wyborczych. Bez trackerów.",
       idx_h1: "Twój głos. Twój profil wartości.",
-      idx_lead: "Impuls pokazuje, gdzie sytuujesz się politycznie — i gdzie sytuuje się twój kraj. Odpowiadaj na pytania merytoryczne i światopoglądowe, otrzymaj anonimowy profil na dziesięciu osiach wartości i porównaj się ze społecznością w 9 krajach europejskich.",
+      idx_lead: "Impuls pokazuje, gdzie sytuujesz się politycznie — i gdzie sytuuje się twój kraj. Odpowiadaj na pytania merytoryczne i światopoglądowe, otrzymaj anonimowy profil na 11 osiach wartości i porównaj się ze społecznością w 9 krajach europejskich.",
       idx_card_title: "Co wyróżnia Impuls",
       idx_p1: "<strong>Bez rekomendacji wyborczych.</strong> Impuls pokazuje bliskość i większości, ale nie ocenia, co jest „słuszne”.",
       idx_p2: "<strong>Anonimowość z założenia.</strong> Bez konta, bez trackerów, bez reklam. Odpowiedzi polityczne są przetwarzane wyłącznie pseudonimowo.",

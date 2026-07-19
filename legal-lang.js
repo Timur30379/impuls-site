@@ -10,7 +10,7 @@
   // Rechts-Links (Header-Nav + Footer) auf die Sprache dieser Seite setzen
   var links = document.querySelectorAll("header.site nav a, footer a");
   for (var i = 0; i < links.length; i++) {
-    var m = (links[i].getAttribute("href") || "").match(/^(datenschutz|impressum|nutzungsbedingungen)(_en)?\.html$/);
+    var m = (links[i].getAttribute("href") || "").match(/^(datenschutz|impressum|nutzungsbedingungen|methodik)(_en)?\.html$/);
     if (m) links[i].setAttribute("href", m[1] + (cur === "en" ? "_en" : "") + ".html");
   }
 
