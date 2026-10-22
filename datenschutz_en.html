@@ -1,146 +1,27 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy — Impuls</title>
-  <meta name="robots" content="index,follow">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="site">
-    <a class="brand" href="index.html">Impuls</a>
-    <nav>
-      <a href="methodik_en.html">Methodology</a>
-      <a href="datenschutz_en.html">Privacy</a>
-      <a href="impressum_en.html">Legal notice</a>
-      <a href="nutzungsbedingungen_en.html">Terms of use</a>
-      <a href="support.html">Support</a>
-    </nav>
-  </header>
-  <main>
-    <h1>Privacy Policy — Impuls</h1>
-    <p class="meta">Last updated: 19 May 2026 · Language: <a href="datenschutz.html">Deutsch ↗</a> · English</p>
-
-    <div class="card notice">
-      <p><strong>Note:</strong> This English text is a convenience translation. The legally
-      authoritative version is the <a href="datenschutz.html">German privacy policy</a>;
-      in case of any discrepancy, the German version applies.</p>
-    </div>
-
-    <p>This privacy policy describes how the <strong>Impuls</strong> app handles your data.
-    It is written in plain language and deliberately detailed where it matters most: the
-    distinction between local on-device data and data in the backend.</p>
-
-    <h2>1. Controller</h2>
-    <p><strong>Timur Felix Cön</strong><br>
-    Contact: <a href="mailto:privacy@impulsapp.eu">privacy@impulsapp.eu</a></p>
-    <p>The fastest way to reach me is by email. You can find the full postal address in the
-    <a href="impressum_en.html">legal notice (Impressum)</a>.</p>
-
-    <h2>2. Purpose of the app</h2>
-    <p>Impuls is a political opinion and analysis app. It makes political questions, societal
-    value axes and majorities visible: answer current topics, societal questions and
-    parliamentary proposals, build a personal value-axis profile from your answers, compare it
-    with the community average, and rate the government and political figures with
-    school-style grades.</p>
-    <p>The app gives <strong>no voting recommendation</strong>. Party comparisons are
-    explicitly described as profile proximity, not a recommendation. Ratings of individuals are
-    user opinions, not statements of fact.</p>
-
-    <h2>3. Which data is processed — and where</h2>
-    <p>We clearly separate two layers.</p>
-
-    <h3>3.1 Stays only on your device</h3>
-    <p>The following is stored <strong>exclusively locally</strong> on your device and is
-    <strong>not</strong> transmitted to our backend:</p>
-    <ul>
-      <li><strong>Basic data:</strong> age, postal code and region, if you enter them voluntarily in the profile card. These fields never leave the device.</li>
-      <li><strong>Onboarding status:</strong> the marker of whether you have seen the first-start flow.</li>
-      <li><strong>Optional UI states:</strong> e.g. which sections you have expanded in detail views.</li>
-    </ul>
-    <p>You can uninstall the app at any time — this removes that local data.</p>
-
-    <h3>3.2 Transmitted anonymously to our backend</h3>
-    <p>When you answer a voting question or give a rating, the submission is sent to our backend
-    at <strong>Supabase (EU region)</strong>. We transmit:</p>
-    <ul>
-      <li>the <strong>ID of the question/category/person</strong> your answer relates to,</li>
-      <li>the <strong>answer/rating value</strong>,</li>
-      <li>a <strong>device-bound, pseudonymous UUID</strong> (randomly generated on first launch) so that multiple submissions are prevented and votes can be updated per device,</li>
-      <li>a timestamp of the submission.</li>
-    </ul>
-    <p>We do <strong>not</strong> transmit: your name, your email address, your Apple/Google ID,
-    your age, your postal code, your region, your location, your IP address beyond what a normal
-    HTTPS request entails, or your device type in a personally identifiable form.</p>
-
-    <h3>3.3 What the app does not do</h3>
-    <ul>
-      <li><strong>No</strong> sale of personal data.</li>
-      <li><strong>No</strong> advertising tracking, no ads, no tracking SDKs (Facebook/Google Analytics or similar).</li>
-      <li><strong>No</strong> real identity verification. The device-bound UUID cannot be resolved to your person.</li>
-      <li><strong>No</strong> access to your location, address book, photos, microphone or similar.</li>
-      <li><strong>No</strong> push notifications without your consent.</li>
-    </ul>
-
-    <h2>4. Political opinions (Art. 9 GDPR)</h2>
-    <p>Answers on political topics are special categories of personal data. We process them
-    exclusively pseudonymously and on the basis of your explicit consent (Art. 9(2)(a) GDPR),
-    which you give in the app before first using the voting functions and can withdraw at any
-    time (in the app under “Legal → Your data”).</p>
-
-    <h2>5. Backend and hosting</h2>
-    <p>Anonymized voting data is stored in a Supabase instance in the
-    <strong>European Union (Frankfurt am Main)</strong>. Supabase is a purely technical service
-    provider (processor); no processing for advertising or profiling purposes takes place. No
-    transfer to third countries outside the EU takes place.</p>
-
-    <h2>5a. Optional account and profile backup</h2>
-    <p>You can use Impuls entirely without an account. Optionally, you can create an account
-    (Apple login or email code) to back up your value profile and restore it on another device.
-    For this we process your <strong>email address</strong> (or the relay address provided by
-    Apple) for sign-in and — <strong>only in the explicit “back up profile” flow</strong> — a
-    copy of your answers and value profile linked to your account. This backup never happens
-    automatically when voting. Your anonymous community votes remain separate and are not linked
-    to your account. Basic data (age, postal code, region) is never part of the backup. You can
-    delete your account including the backup at any time in the app (“Legal → Delete account”).
-    Legal bases: Art. 6(1)(b) GDPR and Art. 9(2)(a) GDPR (explicit consent via the backup flow).</p>
-
-    <h2>6. Source links and in-app browser</h2>
-    <p>Sources stored in detail views (Bundestag, bpb, Correctiv, ZDF, the Federal
-    Constitutional Court and others) open in the operating system’s in-app browser. The source
-    is loaded by your operating system, with the technical requests usual there
-    (cookies/browser headers).</p>
-
-    <h2>7. Analytics &amp; error diagnostics</h2>
-    <p>A production analytics engine is currently not active. If activated later, only
-    pseudonymous usage events without answer contents will be processed. Crash reporting may be
-    used for stability — without answer contents.</p>
-
-    <h2>8. Retention</h2>
-    <ul>
-      <li><strong>Local data</strong> stays on your device until you change it, delete it in the app, or uninstall the app.</li>
-      <li><strong>Anonymous votes</strong> in the backend are retained for as long as the app evaluates the respective area.</li>
-      <li><strong>Deletion of your device-bound voting profile</strong> is possible on request by email (section 1). As we store no identity, we need your device UUID from the app for this.</li>
-    </ul>
-
-    <h2>9. Your rights (GDPR)</h2>
-    <p>Even without an account, you have rights to access, rectification, erasure, restriction,
-    data portability and objection (Art. 15–21 GDPR). You can delete local data yourself in the
-    app at any time (“Legal → Delete all my data”). For anything else: email
-    <a href="mailto:privacy@impulsapp.eu">privacy@impulsapp.eu</a>. You also have the right to
-    lodge a complaint with a data protection supervisory authority.</p>
-
-    <h2>10. Changes to this policy</h2>
-    <p>We update this page when the app’s feature set or the data processed changes. The latest
-    version date is shown above.</p>
-
-    <hr>
-    <p class="meta">This policy describes the state of app version 1.0.0 (Beta).</p>
-  </main>
-  <footer>
-    <p>© 2026 Impuls · <a href="index.html">Home</a> · <a href="impressum_en.html">Legal notice</a> · <a href="support.html">Support</a></p>
-  </footer>
-  <script src="legal-lang.js" defer></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Privacy policy — Impuls</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="site"><a class="brand" href="index.html">Impuls</a><nav><a href="methodik_en.html">Methodology</a> <a href="datenschutz_en.html">Privacy</a> <a href="impressum_en.html">Site notice</a> <a href="support.html">Support</a></nav></header>
+<main><h1>Privacy policy</h1><p>Updated: 22 October 2026</p>
+<h2>1. Controller and contact</h2>
+<p>Timur Felix Cön, Zaunhofstraße 30, 50997 Köln, Germany. Privacy and deletion requests: privacy@impulsapp.eu. Impuls is an independent private project and is not affiliated with political parties, governments or public authorities.</p>
+<h2>2. Political answers and consent</h2>
+<p>Impuls processes political answers and derives a personal values profile. Political opinions are sensitive personal data. We request explicit consent before this processing (GDPR Articles 6(1)(a) and 9(2)(a)). Use of the app or sign-in alone does not grant consent. The profile is based on an editorial model, is not voting advice and makes no decisions about you with legal or similarly significant effects.</p>
+<h2>3. Local data and community participation</h2>
+<p>Answers, your values profile, settings and optional personal details are stored locally. In the normal app mode, community participation that you have authorised sends answers, question/country references and timing information to the backend with device or participation identifiers. A participation anchor and permission records support updates, protection and deletion. Answers and derived attributes can be linked under the same identifier. Pseudonyms remain personal data: replacing a name does not automatically make answers anonymous. You do not need an account to answer questions. This does not guarantee that a profile could never be associated with a person.</p>
+<h2>4. Optional demographic details</h2>
+<p>Age, birth year and postal code, where entered locally, are not included in answer backups. With separate consent to group statistics, a broad age band and a region may be sent under a pseudonym. Exact postal code, birth year and GPS location are not sent for this purpose. Group statistics require separate permission. Public results use minimum group sizes; these do not remove every identification risk or make the sample representative.</p>
+<h2>5. Optional account, backup and recovery</h2>
+<p>Email sign-in or Sign in with Apple processes your email or Apple relay address, account/provider identifier and necessary session information. Your name and telephone number are not needed. Name metadata may remain from earlier Apple sign-ins; the current sign-in flow does not request a name.<br>Private backup requires additional explicit permission. It contains answers and profile data linked to your account. Once enabled, it may synchronise on later changes and sign-ins; signing in alone does not enable it. It is encrypted in transit and at rest, but is not end-to-end encrypted. Authorised server processes and sufficiently privileged administrators can technically read its contents. A deliberately established recovery link may connect an account and participation identifier. We therefore do not promise an absolute separation of all account and participation data. An Apple refresh token may be stored encrypted only on the server for revoking Apple sign-in authorisation; it is used only for revocation and removed afterwards. Account functions rely on GDPR Article 6(1)(b); political backups additionally require explicit consent.</p>
+<h2>6. Usage analytics and diagnostics</h2>
+<p>Only after separate consent, PostHog (EU cloud) receives usage events, such as areas opened, with a random analytics identifier and technical app/device information. These are pseudonymous usage data. The app does not send political answer contents or identify you using the participation or account identifier. Automatic screen recording and IP geolocation are disabled. You can withdraw consent under Legal &amp; Trust, stopping further analytics transmissions on the device.<br>When configured, Sentry receives technical error reports even without analytics consent, based on the legitimate interest in stability and security (GDPR Article 6(1)(f)). Performance measurement instead requires analytics consent and uses sampling. Reports may include error/stack information, app version, operating system, device characteristics and technical events. The app removes answer contents, contact details, credentials and URL parameters before transmission. Screen recording is disabled. Every network connection necessarily exposes an IP address to its recipient; we do not promise that IP addresses are never processed.</p>
+<h2>7. Providers and transfers</h2>
+<p>Supabase processes account, backup and participation data; the main project uses the EU region in Frankfurt. PostHog and Sentry use EU endpoints. EU storage does not automatically exclude access or subprocessors outside the EEA. Required international transfers depend on applicable safeguards, including adequacy decisions or standard contractual clauses. Contact us for information about providers and safeguards.<br>Expo provides app-update delivery and technical distribution services. Apple and Google process data as part of their platforms, and Apple also handles Apple sign-in. External sources are contacted through the browser only when opened and are then subject to the provider&#x27;s privacy information. Website hosting processes necessary connection data; the language preference is stored locally in your browser.</p>
+<h2>8. Withdrawal, deletion and limits</h2>
+<p>Community, demographic, backup and analytics permissions serve different purposes and can be managed separately. Withdrawal on the device stops the corresponding further transmissions even offline. This does not mean pending server cleanup is complete: retain the app data and displayed deletion request until completion is confirmed. Reinstalling does not reliably delete server data, and secure device storage may survive reinstallation.<br>Ending participation removes attributable participation data, including answers and shared demographics. Private account backup and local answers are separate. “Delete all my data” covers local data accessible on this device and attributable server data; “Delete account” additionally removes the authentication account. Account deletion includes the account, private backup and attributable recovery links. Pseudonyms from other devices that are not linked to the account cannot be discovered from an email address alone. Published, genuinely anonymised aggregate results may remain. A failed or partly completed step is not a complete deletion.<br>For privacy or deletion requests without the app, email <a href="mailto:privacy@impulsapp.eu">privacy@impulsapp.eu</a>. Requests are handled personally. We explain the next steps and establish the correct account before providing account-specific information or carrying out a deletion. Sending a request does not confirm deletion. Do not send passwords, sign-in codes, identity documents or political answers.</p>
+<h2>9. Retention and response times</h2>
+<p>Local data remains until locally deleted. Account and private backup data remain until deletion or the end of their purpose. Participation data remains until deletion or the end of the collection purpose; withdrawal ends further use for the withdrawn purpose. Legally required evidence or limited security records may be retained separately for their specific purpose. To prevent delayed requests from recreating deleted data, a technical block record is retained: the SHA-256 hash of the retired random device identifier and the time it was blocked. It contains no answers or account link. The record has no fixed expiry while old requests can still arrive and is used solely to reject further writes under that identifier. Infrastructure backup copies expire through their respective rotation and must not reactivate deleted profiles. The deletion procedure provides information on the affected records and any remaining retention periods.<br>We handle deletion requests without undue delay and normally respond within one month of receipt. If a legally permitted extension is necessary, we explain its reason and length within that month. Proportionate additional information may be needed to identify the correct data safely. Acknowledging a request does not confirm deletion. For account deletions, a technical completion receipt without account identifiers or answer contents is kept for safe retries until the device acknowledges final completion, and for another 30 days afterwards. It uses a hash of a random deletion secret. This is not a general 30-day retention period for backups or other data. For separate data or backup deletions, the technical receipt contains a request identifier, a hash of the deletion scope and timestamps. Open requests are retained until resolved; completed receipts are removed at the next cleanup after 90 days.</p>
+<h2>10. Rights</h2>
+<p>Subject to the GDPR, you may request access, correction, erasure, restriction, portability and object to processing. Withdrawal applies going forward and does not affect the lawfulness of earlier processing. Contact privacy@impulsapp.eu. You may complain to a competent data protection supervisory authority.</p>
+<h2>11. Results</h2>
+<p>Comparisons concern participating profiles, not a representative population majority. Party profiles and values axes include editorial assessments.</p>
+<p>In the app: Profile → Legal &amp; Trust → Delete account. For further help, visit <a href="support.html">Support</a>.</p><p>If you do not receive a reply, contact <a href="mailto:info@impulsapp.eu">info@impulsapp.eu</a>.</p></main><footer><p>© 2026 Impuls · <a href="impressum_en.html">Site notice</a> · <a href="support.html">Support</a></p></footer><script src="legal-lang.js" defer></script></body></html>

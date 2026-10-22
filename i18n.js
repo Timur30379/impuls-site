@@ -23,7 +23,7 @@
       sup_c1_title: "E-Mail",
       sup_c1_help: "Hilfreich für eine schnelle Antwort: App-Version (Profil → unten), dein Gerät und eine kurze Beschreibung, was du erwartet hast und was stattdessen passiert ist.",
       sup_c2_title: "Daten löschen",
-      sup_c2_body: "Lokale Daten löschst du direkt in der App: Profil → Rechtliches → „Alle meine Daten löschen“. Für die Löschung serverseitiger anonymer Stimmen schick uns deine Geräte-UUID per E-Mail (siehe <a href='datenschutz.html'>Datenschutzerklärung</a>, Abschnitt 8–9).",
+      sup_c2_body: "Dein Konto und zuordenbare Daten kannst du in der App löschen: Profil → Rechtliches &amp; Vertrauen → Konto löschen. Bewahre bei einem ausstehenden Löschvorgang die App-Daten bis zum bestätigten Abschluss. Für Datenschutz- und Löschanfragen ohne App schreibe an <a href=\"mailto:privacy@impulsapp.eu\">privacy@impulsapp.eu</a>. Sende keine Passwörter, Anmeldecodes oder politischen Antworten.",
       sup_c3_title: "Beta-Feedback",
       sup_c3_body: "In der TestFlight-Phase erreichst du uns auch über die Feedback-Funktion direkt in TestFlight (Screenshot → Feedback teilen).",
       sup_footer: "© 2026 Impuls · <a href='index.html'>Start</a> · <a href='datenschutz.html'>Datenschutz</a> · <a href='impressum.html'>Impressum</a>"
@@ -47,7 +47,7 @@
       sup_c1_title: "Email",
       sup_c1_help: "For a quick reply, it helps to include: app version (Profile → bottom), your device, and a short description of what you expected and what happened instead.",
       sup_c2_title: "Delete data",
-      sup_c2_body: "You can delete local data directly in the app: Profile → Legal → ‘Delete all my data’. To delete server-side anonymous votes, email us your device UUID (see <a href='datenschutz.html'>privacy policy</a>, sections 8–9).",
+      sup_c2_body: "You can delete your account and attributable data in the app: Profile → Legal &amp; Trust → Delete account. If deletion is pending, keep the app data until completion is confirmed. For privacy or deletion requests without the app, email <a href=\"mailto:privacy@impulsapp.eu\">privacy@impulsapp.eu</a>. Do not send passwords, sign-in codes or political answers.",
       sup_c3_title: "Beta feedback",
       sup_c3_body: "During the TestFlight phase you can also reach us via the feedback function directly in TestFlight (screenshot → share feedback).",
       sup_footer: "© 2026 Impuls · <a href='index.html'>Home</a> · <a href='datenschutz.html'>Privacy</a> · <a href='impressum.html'>Legal notice</a>"
@@ -71,7 +71,7 @@
       sup_c1_title: "E-mail",
       sup_c1_help: "Per una risposta rapida è utile indicare: versione dell’app (Profilo → in basso), il tuo dispositivo e una breve descrizione di cosa ti aspettavi e cosa è successo invece.",
       sup_c2_title: "Eliminare i dati",
-      sup_c2_body: "Puoi eliminare i dati locali direttamente nell’app: Profilo → Note legali → «Elimina tutti i miei dati». Per eliminare i voti anonimi lato server, inviaci l’UUID del tuo dispositivo via e-mail (vedi <a href='datenschutz.html'>informativa sulla privacy</a>, sezioni 8–9).",
+      sup_c2_body: "Puoi eliminare il tuo account e i dati associati direttamente nell’app. Se l’eliminazione è in sospeso, conserva i dati dell’app fino alla conferma del completamento. Per richieste sulla privacy o di eliminazione senza app, scrivi a <a href=\"mailto:privacy@impulsapp.eu\">privacy@impulsapp.eu</a>. Non inviare password, codici di accesso o risposte politiche.",
       sup_c3_title: "Feedback beta",
       sup_c3_body: "Durante la fase TestFlight puoi contattarci anche tramite la funzione di feedback direttamente in TestFlight (screenshot → condividi feedback).",
       sup_footer: "© 2026 Impuls · <a href='index.html'>Home</a> · <a href='datenschutz.html'>Privacy</a> · <a href='impressum.html'>Note legali</a>"
@@ -95,7 +95,7 @@
       sup_c1_title: "E-mail",
       sup_c1_help: "Pour une réponse rapide, précise : la version de l’app (Profil → en bas), ton appareil et une brève description de ce que tu attendais et de ce qui s’est passé à la place.",
       sup_c2_title: "Supprimer les données",
-      sup_c2_body: "Tu peux supprimer les données locales directement dans l’app : Profil → Mentions légales → « Supprimer toutes mes données ». Pour supprimer les votes anonymes côté serveur, envoie-nous l’UUID de ton appareil par e-mail (voir <a href='datenschutz.html'>politique de confidentialité</a>, sections 8–9).",
+      sup_c2_body: "Tu peux supprimer ton compte et les données associées dans l’app. Si la suppression est en attente, conserve les données de l’app jusqu’à la confirmation de sa fin. Pour toute demande concernant la confidentialité ou la suppression sans l’app, écris à <a href=\"mailto:privacy@impulsapp.eu\">privacy@impulsapp.eu</a>. N’envoie pas de mots de passe, de codes de connexion ou de réponses politiques.",
       sup_c3_title: "Retour bêta",
       sup_c3_body: "Pendant la phase TestFlight, tu peux aussi nous joindre via la fonction de retour directement dans TestFlight (capture d’écran → partager un retour).",
       sup_footer: "© 2026 Impuls · <a href='index.html'>Accueil</a> · <a href='datenschutz.html'>Confidentialité</a> · <a href='impressum.html'>Mentions légales</a>"
@@ -119,7 +119,7 @@
       sup_c1_title: "Correo electrónico",
       sup_c1_help: "Para una respuesta rápida, ayuda indicar: versión de la app (Perfil → abajo), tu dispositivo y una breve descripción de qué esperabas y qué ocurrió en su lugar.",
       sup_c2_title: "Eliminar datos",
-      sup_c2_body: "Puedes eliminar los datos locales directamente en la app: Perfil → Aviso legal → «Eliminar todos mis datos». Para eliminar los votos anónimos del servidor, envíanos el UUID de tu dispositivo por correo (consulta la <a href='datenschutz.html'>política de privacidad</a>, secciones 8–9).",
+      sup_c2_body: "Puedes eliminar tu cuenta y los datos asociados desde la app. Si la eliminación está pendiente, conserva los datos de la app hasta recibir la confirmación de que ha finalizado. Para consultas sobre privacidad o solicitudes de eliminación sin la app, escribe a <a href=\"mailto:privacy@impulsapp.eu\">privacy@impulsapp.eu</a>. No envíes contraseñas, códigos de acceso ni respuestas políticas.",
       sup_c3_title: "Comentarios de la beta",
       sup_c3_body: "Durante la fase de TestFlight también puedes contactarnos mediante la función de comentarios directamente en TestFlight (captura → compartir comentarios).",
       sup_footer: "© 2026 Impuls · <a href='index.html'>Inicio</a> · <a href='datenschutz.html'>Privacidad</a> · <a href='impressum.html'>Aviso legal</a>"
@@ -143,7 +143,7 @@
       sup_c1_title: "E-mail",
       sup_c1_help: "Voor een snel antwoord helpt het om te vermelden: app-versie (Profiel → onderaan), je apparaat en een korte beschrijving van wat je verwachtte en wat er in plaats daarvan gebeurde.",
       sup_c2_title: "Gegevens verwijderen",
-      sup_c2_body: "Lokale gegevens verwijder je direct in de app: Profiel → Juridisch → ‘Al mijn gegevens verwijderen’. Voor het verwijderen van anonieme stemmen aan serverzijde stuur je ons je apparaat-UUID per e-mail (zie <a href='datenschutz.html'>privacyverklaring</a>, secties 8–9).",
+      sup_c2_body: "Je kunt je account en bijbehorende gegevens in de app verwijderen. Bewaar de appgegevens zolang de verwijdering nog niet is bevestigd. Voor privacyvragen of verwijderingsverzoeken zonder de app kun je mailen naar <a href=\"mailto:privacy@impulsapp.eu\">privacy@impulsapp.eu</a>. Stuur geen wachtwoorden, inlogcodes of politieke antwoorden.",
       sup_c3_title: "Bèta-feedback",
       sup_c3_body: "Tijdens de TestFlight-fase kun je ons ook bereiken via de feedbackfunctie direct in TestFlight (screenshot → feedback delen).",
       sup_footer: "© 2026 Impuls · <a href='index.html'>Home</a> · <a href='datenschutz.html'>Privacy</a> · <a href='impressum.html'>Colofon</a>"
@@ -167,7 +167,7 @@
       sup_c1_title: "E-mail",
       sup_c1_help: "Aby przyspieszyć odpowiedź, podaj: wersję aplikacji (Profil → na dole), swoje urządzenie oraz krótki opis tego, czego oczekiwałeś i co wydarzyło się zamiast tego.",
       sup_c2_title: "Usuwanie danych",
-      sup_c2_body: "Dane lokalne usuniesz bezpośrednio w aplikacji: Profil → Informacje prawne → „Usuń wszystkie moje dane”. Aby usunąć anonimowe głosy po stronie serwera, wyślij nam UUID swojego urządzenia e-mailem (zob. <a href='datenschutz.html'>polityka prywatności</a>, sekcje 8–9).",
+      sup_c2_body: "Możesz usunąć konto i powiązane dane w aplikacji. Jeśli usuwanie jest w toku, zachowaj dane aplikacji do potwierdzenia zakończenia. Pytania dotyczące prywatności lub wnioski o usunięcie danych bez aplikacji kieruj na <a href=\"mailto:privacy@impulsapp.eu\">privacy@impulsapp.eu</a>. Nie przesyłaj haseł, kodów logowania ani odpowiedzi politycznych.",
       sup_c3_title: "Opinie o wersji beta",
       sup_c3_body: "W fazie TestFlight możesz skontaktować się z nami także przez funkcję opinii bezpośrednio w TestFlight (zrzut ekranu → udostępnij opinię).",
       sup_footer: "© 2026 Impuls · <a href='index.html'>Start</a> · <a href='datenschutz.html'>Prywatność</a> · <a href='impressum.html'>Nota prawna</a>"
